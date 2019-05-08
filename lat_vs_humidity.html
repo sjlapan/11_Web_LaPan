@@ -5,82 +5,151 @@
   <meta charset="UTF-8">
   <title>Latitude Vs. Humidity</title>
 
-   <!-- Bring in our bootstrap stylesheet -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+  <link rel="stylesheet"
+        href="style.css">
 
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+        href="style.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand"
+       href="#"></a>
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <div class="collapse navbar-collapse"
+         id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <!-- Embed link to landing page-->
-          <a class="btn btn-primary btn-lg" href="#">Latitude <span class="sr-only">(current)</span></a>
-        
+          <a class="btn btn-primary btn-lg"
+             href="#">Latitude <span class="sr-only">(current)</span></a>
+
         </li>
       </ul>
       <ul class="nav justify-content-right">
-        
+
         <li class="nav-item dropdown">
           <!-- Embed links to plot pages-->
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             id="navbarDropdown"
+             role="button"
+             data-toggle="dropdown"
+             aria-haspopup="true"
+             aria-expanded="false">
             Plots
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-menu"
+               aria-labelledby="navbarDropdown">
+            <a class="dropdown-item"
+               href="#">Action</a>
+            <a class="dropdown-item"
+               href="#">Another action</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item"
+               href="#">Something else here</a>
           </div>
         </li>
         <li class="nav-item">
           <!-- Embed link to comparison page-->
-          <a class="nav-link" href="#">Comparison</a>
+          <a class="nav-link"
+             href="#">Comparison</a>
         </li>
         <li class="nav-item">
           <!-- Embed link to data page-->
-          <a class="nav-link" href="#">Data</a>
+          <a class="nav-link"
+             href="#">Data</a>
         </li>
-        
+
       </ul>
-     
+
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-6">
+  <div class="parent-container">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-lg-6 col-md-6">
           <h1>Humidity</h1>
+
+        </div>
+        <div class="row justify-content-start">
+          <div class="col-lg-6">
+            <img src="Resources/Fig2.png"
+                 class="img-fluid"
+                 alt="Humidity">
+          </div>
+          <div class="col-lg-6">
+
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum ac purus sit amet congue.
+              Maecenas
+              non magna non leo luctus pharetra id vel eros. Nam nunc tortor, cursus vitae pulvinar iaculis, porttitor
+              sit
+              amet quam. Ut interdum lacus sit amet enim semper euismod. Nulla non diam et nibh ultricies suscipit nec
+              nec
+              est. Curabitur odio augue, scelerisque semper fermentum nec, imperdiet at arcu. Maecenas commodo purus in
+              felis
+              feugiat molestie iaculis et nisi. Aliquam et euismod enim. Sed imperdiet congue varius. Nulla iaculis nec
+              nunc
+              iaculis porta.
+            </div>
+          </div>
+        </div>
       </div>
+
+
+
     </div>
-    <div class="row justify-content-start">
-      <div class="col">
-          <img src="Resources/Fig2.png" class="rounded float-left" alt="Humidity">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h1>Visualizations</h1>
+        </div>
       </div>
       <div class="row">
-      <div class="col">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum ac purus sit amet congue. Maecenas
-        non magna non leo luctus pharetra id vel eros. Nam nunc tortor, cursus vitae pulvinar iaculis, porttitor sit
-        amet quam. Ut interdum lacus sit amet enim semper euismod. Nulla non diam et nibh ultricies suscipit nec nec
-        est. Curabitur odio augue, scelerisque semper fermentum nec, imperdiet at arcu. Maecenas commodo purus in felis
-        feugiat molestie iaculis et nisi. Aliquam et euismod enim. Sed imperdiet congue varius. Nulla iaculis nec nunc
-        iaculis porta.
+        <div class="col-lg-2">
+          <img src="Resources/Fig1.png"
+               class="img-fluid"
+               alt="Max Temperature">
+        </div>
+        <div class="col-lg-2">
+          <img src="Resources/Fig2.png"
+               class="img-fluid"
+               alt="Humidity">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="Resources/Fig3.png"
+               class="img-fluid"
+               alt="Cloudiness">
+        </div>
+        <div class="col-lg-2">
+          <img src="Resources/Fig4.png"
+               class="img-fluid"
+               alt="Wind Speed">
+        </div>
       </div>
     </div>
-    </div>
-    </div>
-
-
 
   </div>
-
-
 
 </body>
